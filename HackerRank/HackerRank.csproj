@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7158E979-A0CF-4AE8-A68D-442FD65DA73C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HackerRank</RootNamespace>
+    <AssemblyName>HackerRank</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\Implementation\StrangeCounter.cs" />
+    <Compile Include="Algorithms\Implementation\HappyLadybugs.cs" />
+    <Compile Include="Algorithms\Implementation\ManasaAndStones.cs" />
+    <Compile Include="Algorithms\Implementation\CavityMap.cs" />
+    <Compile Include="Algorithms\Implementation\FlatlandSpaceStations.cs" />
+    <Compile Include="Algorithms\Implementation\FairRations.cs" />
+    <Compile Include="Algorithms\Implementation\LisasWorkbook.cs" />
+    <Compile Include="Algorithms\Implementation\ServiceLane.cs" />
+    <Compile Include="Algorithms\Implementation\ChocolateFeast.cs" />
+    <Compile Include="Algorithms\Implementation\MinimumDistances.cs" />
+    <Compile Include="Algorithms\Implementation\BeautifulTriplets.cs" />
+    <Compile Include="Algorithms\Implementation\ModifiedKaprekarNumbers.cs" />
+    <Compile Include="Algorithms\Implementation\TaumAndBirthday.cs" />
+    <Compile Include="Algorithms\Implementation\AngryProfessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\AppendAndDelete.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\AppleAndOrange.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\BeautifulDaysAtMovies.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\BetweenTwoSets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\BonAppetit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\CircularArrayRotation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\ACMICPCTeam.cs" />
+    <Compile Include="Algorithms\Implementation\EqualizeTheArray.cs" />
+    <Compile Include="Algorithms\Implementation\JumpingOnTheClouds.cs" />
+    <Compile Include="Algorithms\Implementation\RepeatedString.cs" />
+    <Compile Include="Algorithms\Implementation\DesignerPDFViewer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\DivisibleSumPairs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\DrawingBook.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\FindDigits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\GradingStudents.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\HurdleRace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\JumpingOnTheCloudsRevisited.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\Kangaroo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\CutTheSticks.cs" />
+    <Compile Include="Algorithms\Implementation\LibraryFine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\SaveThePrisoner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\SequenceEquation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\SherlockAndSquares.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\SockMerchant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\UtopianTree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\Implementation\ViralAdvertising.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\WarmUp\MinMaxSum.cs" />
+    <Compile Include="Library\IQuestion.cs" />
+    <Compile Include="Library\Utility.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Algorithms\WarmUp\CompareTheTriplets.cs" />
+    <Compile Include="Algorithms\WarmUp\DiagonalDifference.cs" />
+    <Compile Include="Algorithms\WarmUp\PlusMinus.cs" />
+    <Compile Include="Algorithms\WarmUp\TimeConversion.cs" />
+    <Compile Include="Algorithms\WarmUp\Staircase.cs" />
+    <Compile Include="Algorithms\WarmUp\VeryBigSum.cs" />
+    <Compile Include="Algorithms\WarmUp\SimpleArraySum.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
