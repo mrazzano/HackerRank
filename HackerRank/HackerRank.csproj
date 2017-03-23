@@ -120,6 +120,11 @@
     <Compile Include="Algorithms\Implementation\ViralAdvertising.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Algorithms\Strings\HackerRankInString.cs" />
+    <Compile Include="Algorithms\Strings\MarsExploration.cs" />
+    <Compile Include="Algorithms\Strings\CaeserCipher.cs" />
+    <Compile Include="Algorithms\Strings\CamelCase.cs" />
+    <Compile Include="Algorithms\Strings\SuperReducedString.cs" />
     <Compile Include="Algorithms\WarmUp\MinMaxSum.cs" />
     <Compile Include="Library\IQuestion.cs" />
     <Compile Include="Library\Utility.cs" />

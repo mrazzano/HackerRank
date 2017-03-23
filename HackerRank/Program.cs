@@ -4,6 +4,7 @@ using HackerRank.Library;
 using System.Collections.Generic;
 using HackerRank.Algorithms.WarmUp;
 using HackerRank.Algorithms.Implementation;
+using HackerRank.Algorithms.Strings;
 
 namespace HackerRank
 {
@@ -23,6 +24,7 @@ namespace HackerRank
             // execute all modules
             RunWarmupQuestions();
             RunImplementationQuestions();
+            RunStringQuestions();
 
             // stop timer
             timer.Stop();
@@ -95,6 +97,18 @@ namespace HackerRank
             });
         }
 
+        private static void RunStringQuestions()
+        {
+            const string header = "Algorithms - Strings";
+            RunQuestions(header, new List<IQuestion>()
+            {
+                new SuperReducedString(),
+                new CamelCase(),
+                new CaeserCipher(),
+                new MarsExploration(),
+                new HackerRankInString()
+            });
+        }
         private static void RunQuestions(string header, IReadOnlyList<IQuestion> questions)
         {
             Console.WriteLine(Utility.GetLessonHeader(header));
