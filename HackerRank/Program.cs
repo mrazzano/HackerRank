@@ -106,7 +106,9 @@ namespace HackerRank
                 new CamelCase(),
                 new CaeserCipher(),
                 new MarsExploration(),
-                new HackerRankInString()
+                new HackerRankInString(),
+                new Pangram(),
+                new WeightedUniformStrings()
             });
         }
         private static void RunQuestions(string header, IReadOnlyList<IQuestion> questions)
