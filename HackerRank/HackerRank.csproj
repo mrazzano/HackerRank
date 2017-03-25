@@ -120,6 +120,10 @@
     <Compile Include="Algorithms\Implementation\ViralAdvertising.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Algorithms\Strings\BeautifulBinaryString.cs" />
+    <Compile Include="Algorithms\Strings\AlternatingCharacters.cs" />
+    <Compile Include="Algorithms\Strings\Gemstones.cs" />
+    <Compile Include="Algorithms\Strings\FunnyString.cs" />
     <Compile Include="Algorithms\Strings\WeightedUniformStrings.cs" />
     <Compile Include="Algorithms\Strings\Pangram.cs" />
     <Compile Include="Algorithms\Strings\HackerRankInString.cs" />

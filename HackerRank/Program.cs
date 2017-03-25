@@ -108,7 +108,11 @@ namespace HackerRank
                 new MarsExploration(),
                 new HackerRankInString(),
                 new Pangram(),
-                new WeightedUniformStrings()
+                new WeightedUniformStrings(),
+                new FunnyString(),
+                new Gemstones(),
+                new AlternatingCharacters(),
+                new BeautifulBinaryString()
             });
         }
         private static void RunQuestions(string header, IReadOnlyList<IQuestion> questions)
