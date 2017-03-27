@@ -112,8 +112,14 @@ namespace HackerRank
                 new FunnyString(),
                 new Gemstones(),
                 new AlternatingCharacters(),
-                new BeautifulBinaryString()
-            });
+                new BeautifulBinaryString(),
+                new LoveLetterMystery(),
+                new PalindromeIndex(),
+                new Anagram(),
+                new MakingAnagrams(),
+                new GameOfThrones(),
+                new TwoStrings()
+,            });
         }
         private static void RunQuestions(string header, IReadOnlyList<IQuestion> questions)
         {

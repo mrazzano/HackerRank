@@ -120,6 +120,12 @@
     <Compile Include="Algorithms\Implementation\ViralAdvertising.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Algorithms\Strings\TwoStrings.cs" />
+    <Compile Include="Algorithms\Strings\GameOfThrones.cs" />
+    <Compile Include="Algorithms\Strings\MakingAnagrams.cs" />
+    <Compile Include="Algorithms\Strings\Anagram.cs" />
+    <Compile Include="Algorithms\Strings\PalindromeIndex.cs" />
+    <Compile Include="Algorithms\Strings\LoveLetterMystery.cs" />
     <Compile Include="Algorithms\Strings\BeautifulBinaryString.cs" />
     <Compile Include="Algorithms\Strings\AlternatingCharacters.cs" />
     <Compile Include="Algorithms\Strings\Gemstones.cs" />
