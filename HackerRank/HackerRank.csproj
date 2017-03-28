@@ -120,6 +120,9 @@
     <Compile Include="Algorithms\Implementation\ViralAdvertising.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Algorithms\Sorting\InsertionSortPart1.cs" />
+    <Compile Include="Algorithms\Strings\StringConstruction.cs" />
+    <Compile Include="Algorithms\Strings\TwoCharacters.cs" />
     <Compile Include="Algorithms\Strings\TwoStrings.cs" />
     <Compile Include="Algorithms\Strings\GameOfThrones.cs" />
     <Compile Include="Algorithms\Strings\MakingAnagrams.cs" />

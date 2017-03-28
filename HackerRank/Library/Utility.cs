@@ -7,16 +7,13 @@ namespace HackerRank.Library
     {
         private const int LineLength = 60;
 
-        public static string GetProgramHeader(string header, DateTime date)
+        public static string GetProgramHeader(string header)
         {
             var separator = new string('*', LineLength);
 
             var sb = new StringBuilder();
             sb.AppendLine(separator);
             sb.AppendFormat("* {0}", header);
-            sb.Append(Environment.NewLine);
-            sb.AppendLine("*");
-            sb.AppendFormat("* {0}", date.ToString("MMMM dd, yyyy"));
             sb.Append(Environment.NewLine);
             sb.AppendLine(separator);
             sb.AppendLine();

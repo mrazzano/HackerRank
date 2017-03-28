@@ -3,8 +3,9 @@ using System.Diagnostics;
 using HackerRank.Library;
 using System.Collections.Generic;
 using HackerRank.Algorithms.WarmUp;
-using HackerRank.Algorithms.Implementation;
 using HackerRank.Algorithms.Strings;
+using HackerRank.Algorithms.Sorting;
+using HackerRank.Algorithms.Implementation;
 
 namespace HackerRank
 {
@@ -15,7 +16,7 @@ namespace HackerRank
             const string header = "Solutions to HackerRank exercises.";
 
             // write program header
-            Console.WriteLine(Utility.GetProgramHeader(header, new DateTime(2017, 2, 20)));
+            Console.WriteLine(Utility.GetProgramHeader(header));
 
             // start program timer
             var timer = new Stopwatch();
@@ -25,6 +26,7 @@ namespace HackerRank
             RunWarmupQuestions();
             RunImplementationQuestions();
             RunStringQuestions();
+            RunSortingQuestions();
 
             // stop timer
             timer.Stop();
@@ -104,6 +106,7 @@ namespace HackerRank
             {
                 new SuperReducedString(),
                 new CamelCase(),
+                new TwoCharacters(),
                 new CaeserCipher(),
                 new MarsExploration(),
                 new HackerRankInString(),
@@ -118,9 +121,20 @@ namespace HackerRank
                 new Anagram(),
                 new MakingAnagrams(),
                 new GameOfThrones(),
-                new TwoStrings()
+                new TwoStrings(),
+                new StringConstruction()
 ,            });
         }
+
+        private static void RunSortingQuestions()
+        {
+            const string header = "Algorithms - Sorting";
+            RunQuestions(header, new List<IQuestion>()
+            {
+                new InsertionSortPart1()
+            });
+        }
+
         private static void RunQuestions(string header, IReadOnlyList<IQuestion> questions)
         {
             Console.WriteLine(Utility.GetLessonHeader(header));
