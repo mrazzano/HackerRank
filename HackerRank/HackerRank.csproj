@@ -120,6 +120,11 @@
     <Compile Include="Algorithms\Implementation\ViralAdvertising.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Algorithms\Sorting\FindTheMedian.cs" />
+    <Compile Include="Algorithms\Sorting\ClosestNumbers.cs" />
+    <Compile Include="Algorithms\Sorting\CountingSort3.cs" />
+    <Compile Include="Algorithms\Sorting\CountingSort2.cs" />
+    <Compile Include="Algorithms\Sorting\CountingSort1.cs" />
     <Compile Include="Algorithms\Sorting\RunningTimeOfQuicksort.cs" />
     <Compile Include="Algorithms\Sorting\QuicksortInPlace.cs" />
     <Compile Include="Algorithms\Sorting\QuicksortSorting.cs" />

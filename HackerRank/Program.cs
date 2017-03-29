@@ -137,7 +137,12 @@ namespace HackerRank
                 new QuicksortPartition(),
                 new QuicksortSorting(),
                 new QuicksortInPlace(),
-                new RunningTimeOfQuicksort()
+                new RunningTimeOfQuicksort(),
+                new CountingSort1(),
+                new CountingSort2(),
+                new CountingSort3(),
+                new ClosestNumbers(),
+                new FindTheMedian()
             });
         }
 
