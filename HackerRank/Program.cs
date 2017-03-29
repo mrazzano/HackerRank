@@ -131,7 +131,13 @@ namespace HackerRank
             const string header = "Algorithms - Sorting";
             RunQuestions(header, new List<IQuestion>()
             {
-                new InsertionSortPart1()
+                new InsertionSortPart1(),
+                new InsertionSortPart2(),
+                new RunningTimeOfInsertionSort(),
+                new QuicksortPartition(),
+                new QuicksortSorting(),
+                new QuicksortInPlace(),
+                new RunningTimeOfQuicksort()
             });
         }
 

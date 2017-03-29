@@ -120,6 +120,12 @@
     <Compile Include="Algorithms\Implementation\ViralAdvertising.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Algorithms\Sorting\RunningTimeOfQuicksort.cs" />
+    <Compile Include="Algorithms\Sorting\QuicksortInPlace.cs" />
+    <Compile Include="Algorithms\Sorting\QuicksortSorting.cs" />
+    <Compile Include="Algorithms\Sorting\QuicksortPartition.cs" />
+    <Compile Include="Algorithms\Sorting\RunningTimeOfInsertionSort.cs" />
+    <Compile Include="Algorithms\Sorting\InsertionSortPart2.cs" />
     <Compile Include="Algorithms\Sorting\InsertionSortPart1.cs" />
     <Compile Include="Algorithms\Strings\StringConstruction.cs" />
     <Compile Include="Algorithms\Strings\TwoCharacters.cs" />
