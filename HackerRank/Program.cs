@@ -6,6 +6,7 @@ using HackerRank.Algorithms.WarmUp;
 using HackerRank.Algorithms.Strings;
 using HackerRank.Algorithms.Sorting;
 using HackerRank.Algorithms.Implementation;
+using HackerRank.Algorithms.Search;
 
 namespace HackerRank
 {
@@ -27,6 +28,7 @@ namespace HackerRank
             RunImplementationQuestions();
             RunStringQuestions();
             RunSortingQuestions();
+            RunSearchQuestions();
 
             // stop timer
             timer.Stop();
@@ -143,6 +145,17 @@ namespace HackerRank
                 new CountingSort3(),
                 new ClosestNumbers(),
                 new FindTheMedian()
+            });
+        }
+
+        private static void RunSearchQuestions()
+        {
+            const string header = "Algorithms - Search";
+            RunQuestions(header, new List<IQuestion>()
+            {
+                new HackerlandRadioTransmitters(),
+                new IceCreamParlor(),
+                new MissingNumbers()
             });
         }
 

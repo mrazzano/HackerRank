@@ -120,6 +120,9 @@
     <Compile Include="Algorithms\Implementation\ViralAdvertising.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Algorithms\Search\MissingNumbers.cs" />
+    <Compile Include="Algorithms\Search\IceCreamParlor.cs" />
+    <Compile Include="Algorithms\Search\HackerlandRadioTransmitters.cs" />
     <Compile Include="Algorithms\Sorting\FindTheMedian.cs" />
     <Compile Include="Algorithms\Sorting\ClosestNumbers.cs" />
     <Compile Include="Algorithms\Sorting\CountingSort3.cs" />
