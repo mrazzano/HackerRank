@@ -18,12 +18,13 @@ namespace HackerRank.Algorithms.Implementation
 
         private static void solution(string[] args)
         {
+            var n = Convert.ToInt32(args[0]);
             var arr = Array.ConvertAll(args[1].Split(' '), Int32.Parse);
             
             var list = new List<int>(arr);
             list.Sort();
 
-            Console.WriteLine(list.Count);
+            Console.WriteLine(n);
 
             while (list.Count > 1)
             {
@@ -37,7 +38,7 @@ namespace HackerRank.Algorithms.Implementation
                     {
                         list[i-1] -= list[0];
                     }
-                    list.RemoveAt(0);   
+                    list.RemoveAt(0);
                     Console.WriteLine(list.Count);
                 }
             }

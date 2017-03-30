@@ -11,8 +11,8 @@ namespace HackerRank.Algorithms.Implementation
         public void Run(int order)
         {
             Console.WriteLine("Question {0} - {1}", order, question);
-            
-            var args = new[] {"5", "3 3 2 1 3"};
+
+            var args = new[] { "5", "3 3 2 1 3" };
             solution(args);
         }
 

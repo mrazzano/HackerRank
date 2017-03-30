@@ -18,7 +18,7 @@ namespace HackerRank.Algorithms.Implementation
         private static void solution(string[] args)
         {
             var t = Convert.ToInt64(args[0]);
-            
+
             long value = 3;
             while (t > value)
             {

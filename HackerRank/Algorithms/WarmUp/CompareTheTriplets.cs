@@ -11,7 +11,7 @@ namespace HackerRank.Algorithms.WarmUp
         {
             Console.WriteLine("Question {0} - {1}", order, question);
 
-            var args = new[] {"5 6 7", "3 6 10"};
+            var args = new[] { "5 6 7", "3 6 10" };
             solution(args);
         }
 
@@ -45,7 +45,7 @@ namespace HackerRank.Algorithms.WarmUp
             else if (a2 < b2)
                 totalB++;
 
-            Console.WriteLine("{0} {1}", totalA, totalB );
+            Console.WriteLine("{0} {1}", totalA, totalB);
         }
     }
 }

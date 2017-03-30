@@ -19,10 +19,9 @@ namespace HackerRank.Algorithms.WarmUp
         {
             var n = Convert.ToInt32(args[0]);
             var a = new int[n][];
-            for (var a_i = 0; a_i < n; a_i++)
+            for (var i = 0; i < n; i++)
             {
-                var a_temp = args[a_i+1].Split(' ');
-                a[a_i] = Array.ConvertAll(a_temp, Int32.Parse);
+                a[i] = Array.ConvertAll(args[i + 1].Split(' '), Int32.Parse);
             }
 
             var diagonal1 = 0;

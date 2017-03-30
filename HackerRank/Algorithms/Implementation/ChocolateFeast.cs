@@ -20,12 +20,12 @@ namespace HackerRank.Algorithms.Implementation
             var t = Convert.ToInt32(args[0]);
             for (var i = 0; i < t; i++)
             {
-                var tokens_n = args[i+1].Split(' ');
+                var tokens_n = args[i + 1].Split(' ');
                 var n = Convert.ToInt32(tokens_n[0]);
                 var c = Convert.ToInt32(tokens_n[1]);
                 var m = Convert.ToInt32(tokens_n[2]);
 
-                var result = n/c;
+                var result = n / c;
                 var wrappers = result;
 
                 while (wrappers >= m)

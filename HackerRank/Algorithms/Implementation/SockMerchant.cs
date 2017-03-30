@@ -18,9 +18,7 @@ namespace HackerRank.Algorithms.Implementation
         private static void solution(string[] args)
         {
             var n = Convert.ToInt32(args[0]);
-
-            var c_temp = args[1].Split(' ');
-            var c = Array.ConvertAll(c_temp, Int32.Parse);
+            var c = Array.ConvertAll(args[1].Split(' '), Int32.Parse);
 
             Array.Sort(c);
 
@@ -38,7 +36,7 @@ namespace HackerRank.Algorithms.Implementation
                     i += 1;
                 }
             }
-               
+
             Console.WriteLine(result);
         }
     }

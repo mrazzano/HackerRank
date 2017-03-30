@@ -19,14 +19,18 @@ namespace HackerRank.Algorithms.Strings
         private static void solution(string[] args)
         {
             var n = Convert.ToInt32(args[0]);
-            for (var i = 0; i < n * 2; i += 2)
+
+            var start = 0;
+            var end = n * 2;
+            while (start < end)
             {
-                var setA = new HashSet<char>(args[i + 1]);
-                var setB = new HashSet<char>(args[i + 2]);
+                var setA = new HashSet<char>(args[start + 1]);
+                var setB = new HashSet<char>(args[start + 2]);
 
                 setA.IntersectWith(setB);
 
                 Console.WriteLine(setA.Count > 0 ? "YES" : "NO");
+                start += 2;
             }
         }
     }

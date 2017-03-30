@@ -20,7 +20,7 @@ namespace HackerRank.Algorithms.Strings
             var t = Convert.ToInt32(args[0]);
             for (var i = 0; i < t; i++)
             {
-                var s = args[i+1];
+                var s = args[i + 1];
 
                 var reverse = s.ToCharArray();
                 Array.Reverse(reverse);
@@ -37,7 +37,7 @@ namespace HackerRank.Algorithms.Strings
 
                 Console.WriteLine(result ? "Funny" : "Not Funny");
             }
-           
+
         }
     }
 }

@@ -12,17 +12,14 @@ namespace HackerRank.Algorithms.Implementation
         {
             Console.WriteLine("Question {0} - {1}", order, question);
 
-            var args = new[] {"2 3", "2 4", "16 32 96"};
+            var args = new[] { "2 3", "2 4", "16 32 96" };
             solution(args);
         }
 
         private static void solution(string[] args)
         {
-            var a_temp = args[1].Split(' ');
-            var a = Array.ConvertAll(a_temp, Int32.Parse);
-
-            var b_temp = args[2].Split(' ');
-            var b = Array.ConvertAll(b_temp, Int32.Parse);
+            var a = Array.ConvertAll(args[1].Split(' '), Int32.Parse);
+            var b = Array.ConvertAll(args[2].Split(' '), Int32.Parse);
 
             var multiple = a.Aggregate(lcm);
             var divisor = b.Aggregate(gcd);

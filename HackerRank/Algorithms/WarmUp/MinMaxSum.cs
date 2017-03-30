@@ -17,9 +17,7 @@ namespace HackerRank.Algorithms.WarmUp
 
         private static void solution(string[] args)
         {
-            var tokens_n = args[0].Split(' ');
-            var n = Array.ConvertAll(tokens_n, Int32.Parse);
-
+            var n = Array.ConvertAll(args[0].Split(' '), Int32.Parse);
             var length = n.Length;
 
             Array.Sort(n);

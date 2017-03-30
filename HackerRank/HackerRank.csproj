@@ -36,6 +36,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Greedy\MinimumAbsoluteDifference.cs" />
     <Compile Include="Algorithms\Implementation\StrangeCounter.cs" />
     <Compile Include="Algorithms\Implementation\HappyLadybugs.cs" />
     <Compile Include="Algorithms\Implementation\ManasaAndStones.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="Algorithms\Implementation\ViralAdvertising.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Algorithms\Search\SherlockAndArray.cs" />
     <Compile Include="Algorithms\Search\MissingNumbers.cs" />
     <Compile Include="Algorithms\Search\IceCreamParlor.cs" />
     <Compile Include="Algorithms\Search\HackerlandRadioTransmitters.cs" />

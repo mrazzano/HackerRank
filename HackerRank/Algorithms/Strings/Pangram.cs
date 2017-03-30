@@ -20,7 +20,7 @@ namespace HackerRank.Algorithms.Strings
             var s = args[0].ToLower();
             for (var i = 0; i < 26; i++)
             {
-                var current = (char) (97 + i);
+                var current = (char)(97 + i);
                 if (!s.Contains(current.ToString()))
                 {
                     Console.WriteLine("not pangram");

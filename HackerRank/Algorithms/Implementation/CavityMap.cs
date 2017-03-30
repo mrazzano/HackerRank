@@ -11,7 +11,7 @@ namespace HackerRank.Algorithms.Implementation
         {
             Console.WriteLine("Question {0} - {1}", order, question);
 
-            var args = new[] {"4", "1112", "1912", "1892", "1234"};
+            var args = new[] { "4", "1112", "1912", "1892", "1234" };
             solution(args);
         }
 
@@ -19,7 +19,7 @@ namespace HackerRank.Algorithms.Implementation
         {
             var n = Convert.ToInt32(args[0]);
             var grid = new char[n][];
-            
+
             for (var i = 0; i < n; i++)
             {
                 grid[i] = args[i + 1].ToCharArray();

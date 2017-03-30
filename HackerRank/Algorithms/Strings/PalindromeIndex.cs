@@ -20,7 +20,7 @@ namespace HackerRank.Algorithms.Strings
             var n = Convert.ToInt32(args[0]);
             for (var i = 0; i < n; i++)
             {
-                Console.WriteLine(findPalindromeIndex(args[i+1]));
+                Console.WriteLine(findPalindromeIndex(args[i + 1]));
             }
         }
 

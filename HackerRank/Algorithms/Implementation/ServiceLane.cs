@@ -17,20 +17,19 @@ namespace HackerRank.Algorithms.Implementation
 
         private static void solution(string[] args)
         {
-            var tokens_n = args[0].Split(' ');
-            var t = Convert.ToInt32(tokens_n[1]);
+            var t = Convert.ToInt32(args[0].Split(' ')[1]);
             var width = Array.ConvertAll(args[1].Split(' '), Int32.Parse);
-            
-            for (var a0 = 0; a0 < t; a0++)
+
+            for (var i = 0; i < t; i++)
             {
-                var tokens_i = args[a0 + 2].Split(' ');
-                var i = Convert.ToInt32(tokens_i[0]);
-                var j = Convert.ToInt32(tokens_i[1]);
+                var tokens = args[i + 2].Split(' ');
+                var j = Convert.ToInt32(tokens[0]);
+                var k = Convert.ToInt32(tokens[1]);
 
                 var result = Int32.MaxValue;
-                for (var k = i; k <= j; k++)
+                for (var l = j; l <= k; l++)
                 {
-                    result = Math.Min(result, width[k]);
+                    result = Math.Min(result, width[l]);
                 }
                 Console.WriteLine(result);
             }

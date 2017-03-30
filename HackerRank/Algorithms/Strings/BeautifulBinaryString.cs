@@ -19,7 +19,7 @@ namespace HackerRank.Algorithms.Strings
         {
             var n = Convert.ToInt32(args[0]);
             var b = args[1];
-            
+
             var result = 0;
             for (var i = 0; i < n - 2; i++)
             {

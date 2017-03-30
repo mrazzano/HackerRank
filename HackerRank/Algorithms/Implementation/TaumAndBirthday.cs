@@ -18,13 +18,16 @@ namespace HackerRank.Algorithms.Implementation
         private static void solution(string[] args)
         {
             var t = Convert.ToInt32(args[0]);
-            for (var i = 0; i < t * 2; i += 2)
+
+            var start = 0;
+            var end = t * 2;
+            while (start < end)
             {
-                var tokens_b = args[i + 1].Split(' ');
+                var tokens_b = args[start + 1].Split(' ');
                 var b = Convert.ToInt64(tokens_b[0]);
                 var w = Convert.ToInt64(tokens_b[1]);
 
-                var tokens_x = args[i + 2].Split(' ');
+                var tokens_x = args[start + 2].Split(' ');
                 var x = Convert.ToInt64(tokens_x[0]);
                 var y = Convert.ToInt64(tokens_x[1]);
                 var z = Convert.ToInt64(tokens_x[2]);
@@ -33,6 +36,7 @@ namespace HackerRank.Algorithms.Implementation
                 var priceW = Math.Min(y, x + z);
 
                 Console.WriteLine(b * priceB + w * priceW);
+                start += 2;
             }
         }
     }

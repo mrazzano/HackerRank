@@ -24,7 +24,7 @@ namespace HackerRank.Algorithms.Strings
             var message = s.ToCharArray();
             for (var i = 0; i < n; i++)
             {
-                if (!Char.IsLetter(message[i])) 
+                if (!Char.IsLetter(message[i]))
                     continue;
 
                 var baseChar = Char.IsLower(message[i]) ? 'a' : 'A';

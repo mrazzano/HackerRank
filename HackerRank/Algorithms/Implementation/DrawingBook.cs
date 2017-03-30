@@ -20,7 +20,7 @@ namespace HackerRank.Algorithms.Implementation
             var n = Convert.ToInt32(args[0]);
             var p = Convert.ToInt32(args[1]);
 
-            Console.WriteLine(Math.Min(p/2, (n - p)/2));
+            Console.WriteLine(Math.Min(p / 2, (n - p) / 2));
         }
     }
 }

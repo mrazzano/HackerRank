@@ -27,7 +27,7 @@ namespace HackerRank.Algorithms.Implementation
             long result = 0;
             for (var i = 0; i < length; i++)
             {
-                if (s[i] != 'a') 
+                if (s[i] != 'a')
                     continue;
 
                 result += words;

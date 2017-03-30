@@ -24,7 +24,7 @@ namespace HackerRank.Algorithms.Implementation
             var m = Convert.ToInt32(tokens[1]);
             var s = Convert.ToInt32(tokens[2]);
 
-            for(var i = 0; i < t; i++)
+            for (var i = 0; i < t; i++)
             {
                 Console.WriteLine(((m - 1) + (s - 1)) % n + 1);
             }

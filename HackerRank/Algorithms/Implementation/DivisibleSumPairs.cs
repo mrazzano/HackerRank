@@ -20,9 +20,7 @@ namespace HackerRank.Algorithms.Implementation
             var tokens_n = args[0].Split(' ');
             var n = Convert.ToInt32(tokens_n[0]);
             var k = Convert.ToInt32(tokens_n[1]);
-
-            var a_temp = args[1].Split(' ');
-            var a = Array.ConvertAll(a_temp, Int32.Parse);
+            var a = Array.ConvertAll(args[1].Split(' '), Int32.Parse);
 
             var result = 0;
             for (var i = 0; i < n; i++)

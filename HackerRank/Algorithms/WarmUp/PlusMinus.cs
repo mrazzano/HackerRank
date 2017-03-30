@@ -18,14 +18,9 @@ namespace HackerRank.Algorithms.WarmUp
         private static void solution(string[] args)
         {
             var n = Convert.ToInt32(args[0]);
+            var arr = Array.ConvertAll(args[1].Split(' '), Int32.Parse);
 
-            var arr_temp = args[1].Split(' ');
-            var arr = Array.ConvertAll(arr_temp, Int32.Parse);
-
-            var zero = 0;
-            var positive = 0;
-            var negative = 0;
-
+            int zero = 0, positive = 0, negative = 0;
             foreach (var item in arr)
             {
                 if (item > 0)

@@ -21,9 +21,7 @@ namespace HackerRank.Algorithms.Implementation
             var n = Convert.ToInt32(tokens_n[0]);
             var k = Convert.ToInt32(tokens_n[1]);
             var q = Convert.ToInt32(tokens_n[2]);
-
-            var a_temp = args[1].Split(' ');
-            var input = Array.ConvertAll(a_temp, Int32.Parse);
+            var input = Array.ConvertAll(args[1].Split(' '), Int32.Parse);
 
             k = k % n;
 
@@ -33,7 +31,7 @@ namespace HackerRank.Algorithms.Implementation
 
             for (var i = 0; i < q; i++)
             {
-                var m = Convert.ToInt32(args[i+2]);
+                var m = Convert.ToInt32(args[i + 2]);
                 Console.WriteLine(input[m]);
             }
         }

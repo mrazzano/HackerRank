@@ -24,7 +24,7 @@ namespace HackerRank.Algorithms.Strings
             var last = ' ';
             var weight = 0;
             var weightedSums = new HashSet<int>();
-            
+
             foreach (var item in s)
             {
                 if (item != last)

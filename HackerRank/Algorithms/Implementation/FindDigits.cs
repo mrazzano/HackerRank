@@ -20,9 +20,10 @@ namespace HackerRank.Algorithms.Implementation
             var t = Convert.ToInt32(args[0]);
             for (var i = 0; i < t; i++)
             {
-                var result = 0;
                 var n = Convert.ToInt32(args[i + 1]);
+                
                 var number = n;
+                var result = 0;
                 while (number > 0)
                 {
                     var digit = number % 10;

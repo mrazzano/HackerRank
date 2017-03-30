@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using HackerRank.Library;
 using System.Collections.Generic;
+using HackerRank.Algorithms.Greedy;
 using HackerRank.Algorithms.WarmUp;
 using HackerRank.Algorithms.Strings;
 using HackerRank.Algorithms.Sorting;
@@ -29,6 +30,7 @@ namespace HackerRank
             RunStringQuestions();
             RunSortingQuestions();
             RunSearchQuestions();
+            RunGreedyQuestions();
 
             // stop timer
             timer.Stop();
@@ -155,10 +157,20 @@ namespace HackerRank
             {
                 new HackerlandRadioTransmitters(),
                 new IceCreamParlor(),
-                new MissingNumbers()
+                new MissingNumbers(),
+                new SherlockAndArray()
             });
         }
 
+        private static void RunGreedyQuestions()
+        {
+            const string header = "Algorithms - Greedy";
+            RunQuestions(header, new List<IQuestion>()
+            {
+                new MinimumAbsoluteDifference()
+            });
+        }
+        
         private static void RunQuestions(string header, IReadOnlyList<IQuestion> questions)
         {
             Console.WriteLine(Utility.GetLessonHeader(header));

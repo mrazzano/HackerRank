@@ -18,11 +18,11 @@ namespace HackerRank.Algorithms.Implementation
         private static void solution(string[] args)
         {
             var n = Convert.ToInt32(args[0]);
+            
             var grades = new int[n];
-
-            for (var a0 = 0; a0 < n; a0++)
+            for (var i = 0; i < n; i++)
             {
-                grades[a0] = Convert.ToInt32(args[a0+1]);
+                grades[i] = Convert.ToInt32(args[i + 1]);
             }
 
             foreach (var item in grades)

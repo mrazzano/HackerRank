@@ -11,7 +11,7 @@ namespace HackerRank.Algorithms.Strings
         {
             Console.WriteLine("Question {0} - {1}", order, question);
 
-            var args = new[] {"aaabccddd"};
+            var args = new[] { "aaabccddd" };
             solution(args);
         }
 
@@ -20,7 +20,7 @@ namespace HackerRank.Algorithms.Strings
             var s = args[0];
             for (var i = 0; i < s.Length - 1; i++)
             {
-                if (s[i] != s[i + 1]) 
+                if (s[i] != s[i + 1])
                     continue;
 
                 s = s.Replace(s[i] + s[i].ToString(), "");

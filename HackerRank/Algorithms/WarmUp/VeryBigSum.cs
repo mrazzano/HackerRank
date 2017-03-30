@@ -17,13 +17,13 @@ namespace HackerRank.Algorithms.WarmUp
 
         private static void solution(string[] args)
         {
-            var arr_temp = args[1].Split(' ');
-            var arr = Array.ConvertAll(arr_temp, Int32.Parse);
+            var n = Convert.ToInt32(args[0]);
+            var arr = Array.ConvertAll(args[1].Split(' '), Int32.Parse);
 
             long result = 0;
-            foreach (var item in arr)
+            for (var i = 0; i < n; i++)
             {
-                result += item;
+                result += arr[i];
             }
 
             Console.WriteLine(result);

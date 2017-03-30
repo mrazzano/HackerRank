@@ -25,11 +25,8 @@ namespace HackerRank.Algorithms.Implementation
             var a = Convert.ToInt32(tokens_a[0]);
             var b = Convert.ToInt32(tokens_a[1]);
 
-            var apple_temp = args[3].Split(' ');
-            var apple = Array.ConvertAll(apple_temp, Int32.Parse);
-
-            var orange_temp = args[4].Split(' ');
-            var orange = Array.ConvertAll(orange_temp, Int32.Parse);
+            var apple = Array.ConvertAll(args[3].Split(' '), Int32.Parse);
+            var orange = Array.ConvertAll(args[4].Split(' '), Int32.Parse);
 
             var appleCount = 0;
             var orangeCount = 0;
@@ -48,7 +45,7 @@ namespace HackerRank.Algorithms.Implementation
                     orangeCount++;
             }
 
-            Console.WriteLine("{0} {1}", appleCount, orangeCount );
+            Console.WriteLine("{0} {1}", appleCount, orangeCount);
         }
     }
 }

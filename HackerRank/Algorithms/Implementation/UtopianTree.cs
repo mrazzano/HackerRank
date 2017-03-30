@@ -18,13 +18,13 @@ namespace HackerRank.Algorithms.Implementation
         private static void solution(string[] args)
         {
             var t = Convert.ToInt32(args[0]);
-            for (var a0 = 0; a0 < t; a0++)
+            for (var i = 0; i < t; i++)
             {
-                var n = Convert.ToInt32(args[a0 + 1]);
+                var n = Convert.ToInt32(args[i + 1]);
                 var height = 1;
-                for (var i = 0; i < n; i++)
+                for (var j = 0; j < n; j++)
                 {
-                    height += i % 2 == 0 ? height : 1;
+                    height += j % 2 == 0 ? height : 1;
                 }
                 Console.WriteLine(height);
             }

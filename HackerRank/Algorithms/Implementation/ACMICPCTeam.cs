@@ -20,11 +20,11 @@ namespace HackerRank.Algorithms.Implementation
             var tokens_n = args[0].Split(' ');
             var n = Convert.ToInt32(tokens_n[0]);
             var m = Convert.ToInt32(tokens_n[1]);
-            
+
             var topic = new string[n];
             for (var i = 0; i < n; i++)
             {
-                topic[i] = args[i+1];
+                topic[i] = args[i + 1];
             }
 
             var teams = 0;
