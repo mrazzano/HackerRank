@@ -167,7 +167,8 @@ namespace HackerRank
             const string header = "Algorithms - Greedy";
             RunQuestions(header, new List<IQuestion>()
             {
-                new MinimumAbsoluteDifference()
+                new MinimumAbsoluteDifference(),
+                new MarksCakewalk()
             });
         }
         
