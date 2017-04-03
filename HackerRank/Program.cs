@@ -168,7 +168,8 @@ namespace HackerRank
             RunQuestions(header, new List<IQuestion>()
             {
                 new MinimumAbsoluteDifference(),
-                new MarksCakewalk()
+                new MarksCakewalk(),
+                new LuckBalance()
             });
         }
         

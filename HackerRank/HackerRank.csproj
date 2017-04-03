@@ -36,6 +36,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Greedy\LuckBalance.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Algorithms\Greedy\MarcsCakewalk.cs" />
     <Compile Include="Algorithms\Greedy\MinimumAbsoluteDifference.cs" />
     <Compile Include="Algorithms\Implementation\StrangeCounter.cs" />
