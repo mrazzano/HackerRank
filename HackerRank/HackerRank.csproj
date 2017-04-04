@@ -36,6 +36,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Greedy\BeautifulPairs.cs" />
+    <Compile Include="Algorithms\Greedy\MaxPerimeterTriangle.cs" />
     <Compile Include="Algorithms\Greedy\LuckBalance.cs">
       <SubType>Code</SubType>
     </Compile>

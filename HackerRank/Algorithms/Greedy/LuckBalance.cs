@@ -22,9 +22,8 @@ namespace HackerRank.Algorithms.Greedy
             var n = Convert.ToInt32(tokens[0]);
             var k = Convert.ToInt32(tokens[1]);
 
-            var luck = 0;
+            var result = 0;
             var contests = new List<int>();
-
             for (var i = 0; i < n; i++)
             {
                 tokens = args[i + 1].Split(' ');
@@ -33,7 +32,7 @@ namespace HackerRank.Algorithms.Greedy
 
                 if (t == 0)
                 {
-                    luck += l;
+                    result += l;
                 }
                 else
                 {
@@ -47,14 +46,14 @@ namespace HackerRank.Algorithms.Greedy
             {
                 if (j++ < k)
                 {
-                    luck += contests[i];
+                    result += contests[i];
                 }
                 else
                 {
-                    luck -= contests[i];
+                    result -= contests[i];
                 }
             }
-            Console.WriteLine(luck);
+            Console.WriteLine(result);
         }
     }
 }

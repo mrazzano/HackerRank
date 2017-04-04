@@ -169,7 +169,9 @@ namespace HackerRank
             {
                 new MinimumAbsoluteDifference(),
                 new MarksCakewalk(),
-                new LuckBalance()
+                new LuckBalance(),
+                new MaxPerimeterTriangle(),
+                new BeautifulPairs()
             });
         }
         
