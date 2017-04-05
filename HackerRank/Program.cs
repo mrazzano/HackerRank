@@ -171,7 +171,10 @@ namespace HackerRank
                 new MarksCakewalk(),
                 new LuckBalance(),
                 new MaxPerimeterTriangle(),
-                new BeautifulPairs()
+                new BeautifulPairs(),
+                new SherlockAndTheBeast(),
+                new PriyankaAndToys(),
+                new LargestPermutation()
             });
         }
         
