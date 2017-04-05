@@ -36,6 +36,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\BitManipulation\MaximizingXOR.cs" />
+    <Compile Include="Algorithms\BitManipulation\LonelyInteger.cs" />
+    <Compile Include="Algorithms\Greedy\PermutingTwoArrays.cs" />
+    <Compile Include="Algorithms\Greedy\JimAndTheOrders.cs" />
+    <Compile Include="Algorithms\Greedy\MarkAndToys.cs" />
     <Compile Include="Algorithms\Greedy\PriyankaAndToys.cs" />
     <Compile Include="Algorithms\Greedy\LargestPermutation.cs" />
     <Compile Include="Algorithms\Greedy\SherlockAndTheBeast.cs" />

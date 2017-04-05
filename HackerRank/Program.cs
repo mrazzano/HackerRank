@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using HackerRank.Library;
 using System.Collections.Generic;
+using HackerRank.Algorithms.BitManipulation;
 using HackerRank.Algorithms.Greedy;
 using HackerRank.Algorithms.WarmUp;
 using HackerRank.Algorithms.Strings;
@@ -31,6 +32,7 @@ namespace HackerRank
             RunSortingQuestions();
             RunSearchQuestions();
             RunGreedyQuestions();
+            RunBitManipulationQuestions();
 
             // stop timer
             timer.Stop();
@@ -174,10 +176,24 @@ namespace HackerRank
                 new BeautifulPairs(),
                 new SherlockAndTheBeast(),
                 new PriyankaAndToys(),
-                new LargestPermutation()
+                new LargestPermutation(),
+                new MarkAndToys(),
+                new JimAndTheOrders(),
+                new PermutingTwoArrays()
             });
         }
-        
+
+        private static void RunBitManipulationQuestions()
+        {
+            const string header = "Algorithms - Bit Manipulation";
+            RunQuestions(header, new List<IQuestion>()
+            {
+                new LonelyInteger(),
+                new MaximizingXOR()
+               
+            });
+        }
+
         private static void RunQuestions(string header, IReadOnlyList<IQuestion> questions)
         {
             Console.WriteLine(Utility.GetLessonHeader(header));
