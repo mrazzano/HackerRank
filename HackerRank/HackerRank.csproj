@@ -36,6 +36,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\BitManipulation\SumVsXOR.cs" />
+    <Compile Include="Algorithms\BitManipulation\FlippingBits.cs" />
     <Compile Include="Algorithms\BitManipulation\MaximizingXOR.cs" />
     <Compile Include="Algorithms\BitManipulation\LonelyInteger.cs" />
     <Compile Include="Algorithms\Greedy\PermutingTwoArrays.cs" />
@@ -135,6 +137,7 @@
     <Compile Include="Algorithms\Implementation\ViralAdvertising.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Algorithms\Recursion\PowerSum.cs" />
     <Compile Include="Algorithms\Search\SherlockAndArray.cs" />
     <Compile Include="Algorithms\Search\MissingNumbers.cs" />
     <Compile Include="Algorithms\Search\IceCreamParlor.cs" />

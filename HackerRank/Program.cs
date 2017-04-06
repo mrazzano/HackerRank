@@ -8,6 +8,7 @@ using HackerRank.Algorithms.WarmUp;
 using HackerRank.Algorithms.Strings;
 using HackerRank.Algorithms.Sorting;
 using HackerRank.Algorithms.Implementation;
+using HackerRank.Algorithms.Recursion;
 using HackerRank.Algorithms.Search;
 
 namespace HackerRank
@@ -33,6 +34,7 @@ namespace HackerRank
             RunSearchQuestions();
             RunGreedyQuestions();
             RunBitManipulationQuestions();
+            RunRecursionQuestions();
 
             // stop timer
             timer.Stop();
@@ -189,7 +191,19 @@ namespace HackerRank
             RunQuestions(header, new List<IQuestion>()
             {
                 new LonelyInteger(),
-                new MaximizingXOR()
+                new MaximizingXOR(),
+                new FlippingBits(),
+                new SumVsXOR()
+               
+            });
+        }
+
+        private static void RunRecursionQuestions()
+        {
+            const string header = "Algorithms - Recursion";
+            RunQuestions(header, new List<IQuestion>()
+            {
+                new PowerSum()
                
             });
         }
