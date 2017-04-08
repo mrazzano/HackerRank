@@ -3,6 +3,7 @@ using System.Diagnostics;
 using HackerRank.Library;
 using System.Collections.Generic;
 using HackerRank.Algorithms.BitManipulation;
+using HackerRank.Algorithms.GameTheory;
 using HackerRank.Algorithms.Greedy;
 using HackerRank.Algorithms.WarmUp;
 using HackerRank.Algorithms.Strings;
@@ -35,6 +36,7 @@ namespace HackerRank
             RunGreedyQuestions();
             RunBitManipulationQuestions();
             RunRecursionQuestions();
+            RunGameTheoryQuestions();
 
             // stop timer
             timer.Stop();
@@ -205,6 +207,15 @@ namespace HackerRank
             {
                 new PowerSum()
                
+            });
+        }
+
+        private static void RunGameTheoryQuestions()
+        {
+            const string header = "Algorithms - Game Theory";
+            RunQuestions(header, new List<IQuestion>()
+            {
+                new GameOfStones()
             });
         }
 
