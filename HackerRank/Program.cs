@@ -196,7 +196,6 @@ namespace HackerRank
                 new MaximizingXOR(),
                 new FlippingBits(),
                 new SumVsXOR()
-               
             });
         }
 
@@ -206,7 +205,6 @@ namespace HackerRank
             RunQuestions(header, new List<IQuestion>()
             {
                 new PowerSum()
-               
             });
         }
 
@@ -215,7 +213,9 @@ namespace HackerRank
             const string header = "Algorithms - Game Theory";
             RunQuestions(header, new List<IQuestion>()
             {
-                new GameOfStones()
+                new GameOfStones(),
+                new TowerBreakers(),
+                new ChessboardGame()
             });
         }
 

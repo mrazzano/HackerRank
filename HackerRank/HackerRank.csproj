@@ -40,6 +40,8 @@
     <Compile Include="Algorithms\BitManipulation\FlippingBits.cs" />
     <Compile Include="Algorithms\BitManipulation\MaximizingXOR.cs" />
     <Compile Include="Algorithms\BitManipulation\LonelyInteger.cs" />
+    <Compile Include="Algorithms\GameTheory\ChessboardGame.cs" />
+    <Compile Include="Algorithms\GameTheory\TowerBreakers.cs" />
     <Compile Include="Algorithms\GameTheory\GameOfStones.cs" />
     <Compile Include="Algorithms\Greedy\PermutingTwoArrays.cs" />
     <Compile Include="Algorithms\Greedy\JimAndTheOrders.cs" />
