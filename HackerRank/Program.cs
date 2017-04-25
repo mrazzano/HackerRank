@@ -216,7 +216,9 @@ namespace HackerRank
                 new GameOfStones(),
                 new TowerBreakers(),
                 new ChessboardGame(),
-                new IntroductionToNimGame()
+                new IntroductionToNimGame(),
+                new MisereNim(),
+                new PokerNim()
             });
         }
 
