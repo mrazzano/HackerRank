@@ -24,7 +24,7 @@ namespace HackerRank.Algorithms.GameTheory
                 var n = tokens[0];
                 var m = tokens[1];
 
-                if (n%2 == 0 || m == 1)
+                if (n % 2 == 0 || m == 1)
                 {
                     Console.WriteLine("2");
                 }
