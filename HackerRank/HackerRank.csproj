@@ -36,11 +36,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\AlgorithmModule.cs" />
     <Compile Include="Algorithms\BitManipulation\SumVsXOR.cs" />
     <Compile Include="Algorithms\BitManipulation\FlippingBits.cs" />
     <Compile Include="Algorithms\BitManipulation\MaximizingXOR.cs" />
     <Compile Include="Algorithms\BitManipulation\LonelyInteger.cs" />
     <Compile Include="Algorithms\GameTheory\ChessboardGame.cs" />
+    <Compile Include="Algorithms\GameTheory\NimbleGame.cs" />
     <Compile Include="Algorithms\GameTheory\PokerNim.cs" />
     <Compile Include="Algorithms\GameTheory\IntroductionToNimGame.cs" />
     <Compile Include="Algorithms\GameTheory\MisereNim.cs" />
@@ -180,6 +182,11 @@
     <Compile Include="Algorithms\Strings\CamelCase.cs" />
     <Compile Include="Algorithms\Strings\SuperReducedString.cs" />
     <Compile Include="Algorithms\WarmUp\MinMaxSum.cs" />
+    <Compile Include="DataStructures\Arrays\LeftRotation.cs" />
+    <Compile Include="DataStructures\Arrays\SparseArrays.cs" />
+    <Compile Include="DataStructures\Arrays\ArraysDS.cs" />
+    <Compile Include="DataStructures\DataStructureModule.cs" />
+    <Compile Include="Library\IModule.cs" />
     <Compile Include="Library\IQuestion.cs" />
     <Compile Include="Library\Utility.cs" />
     <Compile Include="Program.cs" />

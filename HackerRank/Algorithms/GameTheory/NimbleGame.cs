@@ -3,15 +3,15 @@ using HackerRank.Library;
 
 namespace HackerRank.Algorithms.GameTheory
 {
-    public class MisereNim : IQuestion
+    public class NimbleGame : IQuestion
     {
-        private const string question = "Misere Nim";
+        private const string question = "Nimble Game";
 
         public void Run(int order)
         {
             Console.WriteLine("Question {0} - {1}", order, question);
 
-            var args = new[] { "2", "2", "1 1", "3", "2 1 3" };
+            var args = new[] { "2", "5", "0 2 3 0 6", "4", "0 0 0 0" };
             solution(args);
         }
 
@@ -26,26 +26,14 @@ namespace HackerRank.Algorithms.GameTheory
                 var n = Convert.ToInt32(args[start + 1]);
                 var s = Array.ConvertAll(args[start + 2].Split(' '), Int32.Parse);
 
-                var count = 0;
                 var result = 0;
                 for (var i = 0; i < n; i++)
                 {
-                    result ^= s[i];
-                    if (s[i] <= 1)
-                    {
-                        count++;
-                    }
+                    if(s[i] % 2 ==1)
+                        result ^= i;
                 }
 
-                if ((count == n && result == 1) || (count < n && result == 0))
-                {
-                    Console.WriteLine("Second");
-                }
-                else
-                {
-                    Console.WriteLine("First");
-                }
-
+                Console.WriteLine(result == 0 ? "Second" : "First");
                 start += 2;
             }
         }

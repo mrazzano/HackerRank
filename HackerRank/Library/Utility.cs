@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Text;
+using System.Collections.Generic;
+
 
 namespace HackerRank.Library
 {
@@ -31,6 +33,16 @@ namespace HackerRank.Library
             sb.Append(separator);
 
             return sb.ToString();
+        }
+
+        public static void RunQuestions(string header, IReadOnlyList<IQuestion> questions)
+        {
+            Console.WriteLine(GetLessonHeader(header));
+            for (var i = 0; i < questions.Count; i++)
+            {
+                questions[i].Run(i + 1);
+                Console.WriteLine();
+            }
         }
     }
 }
