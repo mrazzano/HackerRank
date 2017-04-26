@@ -182,6 +182,8 @@
     <Compile Include="Algorithms\Strings\CamelCase.cs" />
     <Compile Include="Algorithms\Strings\SuperReducedString.cs" />
     <Compile Include="Algorithms\WarmUp\MinMaxSum.cs" />
+    <Compile Include="DataStructures\Arrays\DynamicArray.cs" />
+    <Compile Include="DataStructures\Arrays\TwoDimensionalArray.cs" />
     <Compile Include="DataStructures\Arrays\LeftRotation.cs" />
     <Compile Include="DataStructures\Arrays\SparseArrays.cs" />
     <Compile Include="DataStructures\Arrays\ArraysDS.cs" />

@@ -20,7 +20,9 @@ namespace HackerRank.DataStructures
             {
                 new ArraysDS(),
                 new LeftRotation(),
-                new SparseArrays()
+                new SparseArrays(),
+                new TwoDimensionalArray(),
+                new DynamicArray()
             });
         }
     }
