@@ -188,8 +188,13 @@
     <Compile Include="DataStructures\Arrays\SparseArrays.cs" />
     <Compile Include="DataStructures\Arrays\ArraysDS.cs" />
     <Compile Include="DataStructures\DataStructureModule.cs" />
+    <Compile Include="DataStructures\LinkedLists\InsertNodeAtPosition.cs" />
+    <Compile Include="DataStructures\LinkedLists\InsertNodeAtHead.cs" />
+    <Compile Include="DataStructures\LinkedLists\InsertNodeAtTail.cs" />
+    <Compile Include="DataStructures\LinkedLists\PrintElements.cs" />
     <Compile Include="Library\IModule.cs" />
     <Compile Include="Library\IQuestion.cs" />
+    <Compile Include="Library\Node.cs" />
     <Compile Include="Library\Utility.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

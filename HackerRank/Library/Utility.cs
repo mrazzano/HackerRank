@@ -44,5 +44,28 @@ namespace HackerRank.Library
                 Console.WriteLine();
             }
         }
+
+        public static Node GetLinkedList(int[] nodes)
+        {
+            Node lastNode = null;
+            for (var i = nodes.Length - 1; i >= 0; i--)
+            {
+                var node = new Node(nodes[i], lastNode);
+                lastNode = node;
+            }
+            return lastNode;
+        }
+
+        public static string PrintLinkedList(Node head)
+        {
+            var sb = new StringBuilder();
+            var node = head;
+            while (node != null)
+            {
+                sb.AppendFormat("{0}->", node.data);
+                node = node.next;
+            }
+            return sb.ToString().Remove(sb.Length - 2, 2);
+        }
     }
 }

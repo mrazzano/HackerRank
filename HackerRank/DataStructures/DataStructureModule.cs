@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using HackerRank.Library;
 using HackerRank.DataStructures.Arrays;
+using HackerRank.DataStructures.LinkedLists;
 
 namespace HackerRank.DataStructures
 {
@@ -12,8 +13,9 @@ namespace HackerRank.DataStructures
         {
             // execute all modules
             RunArrayQuestions();
+            RunLinkedListQuestions();
         }
-
+         
         private static void  RunArrayQuestions()
         {
             Utility.RunQuestions(string.Format(ModuleHeader, "Arrays"), new List<IQuestion>()
@@ -23,6 +25,17 @@ namespace HackerRank.DataStructures
                 new SparseArrays(),
                 new TwoDimensionalArray(),
                 new DynamicArray()
+            });
+        }
+
+        private static void RunLinkedListQuestions()
+        {
+            Utility.RunQuestions(string.Format(ModuleHeader, "Linked Lists"), new List<IQuestion>()
+            {
+                new PrintElements(),
+                new InsertNodeAtTail(),
+                new InsertNodeAtHead(),
+                new InsertNodeAtPosition()
             });
         }
     }
