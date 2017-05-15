@@ -11,7 +11,7 @@ namespace HackerRank.Algorithms.Greedy
 
         public void Run(int order)
         {
-            Console.WriteLine("Question {0} - {1}", order, question);
+            Utility.PrintQuestionHeader(order, question);
 
             var args = new[] { "3", "1 3", "2 3", "3 3" };
             solution(args);

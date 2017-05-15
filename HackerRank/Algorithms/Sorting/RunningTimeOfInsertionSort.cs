@@ -9,7 +9,7 @@ namespace HackerRank.Algorithms.Sorting
 
         public void Run(int order)
         {
-            Console.WriteLine("Question {0} - {1}", order, question);
+            Utility.PrintQuestionHeader(order, question);
 
             var args = new[] { "5", "2 1 3 1 2" };
             solution(args);

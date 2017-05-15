@@ -9,7 +9,7 @@ namespace HackerRank.Algorithms.GameTheory
 
         public void Run(int order)
         {
-            Console.WriteLine("Question {0} - {1}", order, question);
+            Utility.PrintQuestionHeader(order, question);
 
             var args = new[] { "3", "5 2", "5 3", "8 8" };
             solution(args);

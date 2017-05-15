@@ -2,14 +2,15 @@
 using System.Text;
 using System.Collections.Generic;
 
-
 namespace HackerRank.Library
 {
     public static class Utility
     {
-        private const int LineLength = 60;
+        private const int LineLength = 60;    
+        
+        #region Output Methods
 
-        public static string GetProgramHeader(string header)
+        public static void PrintProgramHeader(string header)
         {
             var separator = new string('*', LineLength);
 
@@ -20,10 +21,10 @@ namespace HackerRank.Library
             sb.AppendLine(separator);
             sb.AppendLine();
 
-            return sb.ToString();
+            Console.WriteLine(sb.ToString());
         }
 
-        public static string GetLessonHeader(string header)
+        public static void PrintLessonHeader(string header)
         {
             var separator = new string('-', LineLength);
 
@@ -32,18 +33,29 @@ namespace HackerRank.Library
             sb.AppendLine(header);
             sb.Append(separator);
 
-            return sb.ToString();
+            Console.WriteLine(sb.ToString());
         }
 
-        public static void RunQuestions(string header, IReadOnlyList<IQuestion> questions)
+        public static void PrintQuestionHeader(int order, string question)
         {
-            Console.WriteLine(GetLessonHeader(header));
-            for (var i = 0; i < questions.Count; i++)
-            {
-                questions[i].Run(i + 1);
-                Console.WriteLine();
-            }
+            const string FormatString = "Question {0} - {1}";
+            Console.WriteLine(FormatString, order, question);
         }
+
+        public static void PrintLinkedList(Node head)
+        {
+            var sb = new StringBuilder();
+            var node = head;
+            while (node != null)
+            {
+                sb.AppendFormat("{0}->", node.data);
+                node = node.next;
+            }
+            Console.WriteLine(sb.ToString().Remove(sb.Length - 2, 2));
+        }
+        #endregion
+
+        #region Initialization Methods
 
         public static Node GetLinkedList(int[] nodes)
         {
@@ -55,17 +67,19 @@ namespace HackerRank.Library
             }
             return lastNode;
         }
+        #endregion
 
-        public static string PrintLinkedList(Node head)
+        #region Implementation Methods
+
+        public static void RunQuestions(string header, IReadOnlyList<IQuestion> questions)
         {
-            var sb = new StringBuilder();
-            var node = head;
-            while (node != null)
+            PrintLessonHeader(header);
+            for (var i = 0; i < questions.Count; i++)
             {
-                sb.AppendFormat("{0}->", node.data);
-                node = node.next;
+                questions[i].Run(i + 1);
+                Console.WriteLine();
             }
-            return sb.ToString().Remove(sb.Length - 2, 2);
         }
+        #endregion
     }
 }

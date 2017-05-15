@@ -10,7 +10,7 @@ namespace HackerRank.DataStructures.Arrays
 
         public void Run(int order)
         {
-            Console.WriteLine("Question {0} - {1}", order, question);
+            Utility.PrintQuestionHeader(order, question);
 
             var args = new[] { "4", "aba", "baba", "aba", "xzxb", "3", "aba", "xzxb", "ab" };
             solution(args);

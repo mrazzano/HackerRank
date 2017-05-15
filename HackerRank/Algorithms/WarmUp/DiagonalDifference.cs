@@ -9,7 +9,7 @@ namespace HackerRank.Algorithms.WarmUp
 
         public void Run(int order)
         {
-            Console.WriteLine("Question {0} - {1}", order, question);
+            Utility.PrintQuestionHeader(order, question);
 
             var args = new[] { "3", "11 2 4", "4 5 6", "10 8 -12" };
             solution(args);

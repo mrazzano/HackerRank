@@ -9,7 +9,7 @@ namespace HackerRank.Algorithms.Greedy
 
         public void Run(int order)
         {
-            Console.WriteLine("Question {0} - {1}", order, question);
+            Utility.PrintQuestionHeader(order, question);
 
             var args = new[] { "7 50", "1 12 5 111 200 1000 10" };
             solution(args);

@@ -10,7 +10,7 @@ namespace HackerRank.Algorithms.Recursion
 
         public void Run(int order)
         {
-            Console.WriteLine("Question {0} - {1}", order, question);
+            Utility.PrintQuestionHeader(order, question);
 
             var args = new[] { "100", "3" };
             solution(args);

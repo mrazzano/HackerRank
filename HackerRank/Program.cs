@@ -13,7 +13,7 @@ namespace HackerRank
             const string header = "Solutions to HackerRank exercises.";
 
             // write program header
-            Console.WriteLine(Utility.GetProgramHeader(header));
+            Utility.PrintProgramHeader(header);
 
             // start program timer
             var timer = new Stopwatch();

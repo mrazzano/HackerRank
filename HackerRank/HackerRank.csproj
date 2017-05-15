@@ -188,9 +188,16 @@
     <Compile Include="DataStructures\Arrays\SparseArrays.cs" />
     <Compile Include="DataStructures\Arrays\ArraysDS.cs" />
     <Compile Include="DataStructures\DataStructureModule.cs" />
+    <Compile Include="DataStructures\LinkedLists\DetectCycle.cs" />
+    <Compile Include="DataStructures\LinkedLists\DeleteDuplicates.cs" />
+    <Compile Include="DataStructures\LinkedLists\NthFromLastNode.cs" />
+    <Compile Include="DataStructures\LinkedLists\MergeLinkedLists.cs" />
+    <Compile Include="DataStructures\LinkedLists\CompareLinkedLists.cs" />
+    <Compile Include="DataStructures\LinkedLists\ReverseLinkedList.cs" />
     <Compile Include="DataStructures\LinkedLists\InsertNodeAtPosition.cs" />
     <Compile Include="DataStructures\LinkedLists\InsertNodeAtHead.cs" />
     <Compile Include="DataStructures\LinkedLists\InsertNodeAtTail.cs" />
+    <Compile Include="DataStructures\LinkedLists\DeleteNode.cs" />
     <Compile Include="DataStructures\LinkedLists\PrintElements.cs" />
     <Compile Include="Library\IModule.cs" />
     <Compile Include="Library\IQuestion.cs" />

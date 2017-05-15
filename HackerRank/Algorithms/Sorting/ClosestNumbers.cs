@@ -10,7 +10,7 @@ namespace HackerRank.Algorithms.Sorting
 
         public void Run(int order)
         {
-            Console.WriteLine("Question {0} - {1}", order, question);
+            Utility.PrintQuestionHeader(order, question);
 
             var args = new[] { "10", "-20 -3916237 -357920 -3620601 7374819 -7330761 30 6246457 -6461594 266854" };
             solution(args);

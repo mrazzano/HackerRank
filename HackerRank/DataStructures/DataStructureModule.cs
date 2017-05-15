@@ -35,7 +35,14 @@ namespace HackerRank.DataStructures
                 new PrintElements(),
                 new InsertNodeAtTail(),
                 new InsertNodeAtHead(),
-                new InsertNodeAtPosition()
+                new InsertNodeAtPosition(),
+                new DeleteNode() ,
+                new ReverseLinkedList(),
+                new CompareLinkedLists(),
+                new MergeLinkedLists(),
+                new NthFromLastNode(),
+                new DeleteDuplicates(),
+                new DetectCycle()
             });
         }
     }

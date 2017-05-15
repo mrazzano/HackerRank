@@ -1,5 +1,4 @@
-﻿using System;
-using HackerRank.Library;
+﻿using HackerRank.Library;
 
 namespace HackerRank.DataStructures.LinkedLists
 {
@@ -9,12 +8,12 @@ namespace HackerRank.DataStructures.LinkedLists
 
         public void Run(int order)
         {
-            Console.WriteLine("Question {0} - {1}", order, question);
+            Utility.PrintQuestionHeader(order, question);
 
             var head = Utility.GetLinkedList(new[]{2, 3});
             var result = solution(head, 1);
 
-            Console.WriteLine(Utility.PrintLinkedList(result));
+            Utility.PrintLinkedList(result);
         }
 
         private static Node solution(Node head, int data)
