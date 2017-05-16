@@ -2,6 +2,7 @@
 using HackerRank.Library;
 using HackerRank.DataStructures.Arrays;
 using HackerRank.DataStructures.LinkedLists;
+using HackerRank.DataStructures.Trees;
 
 namespace HackerRank.DataStructures
 {
@@ -14,6 +15,7 @@ namespace HackerRank.DataStructures
             // execute all modules
             RunArrayQuestions();
             RunLinkedListQuestions();
+            RunTreeQuestions();
         }
          
         private static void  RunArrayQuestions()
@@ -36,13 +38,27 @@ namespace HackerRank.DataStructures
                 new InsertNodeAtTail(),
                 new InsertNodeAtHead(),
                 new InsertNodeAtPosition(),
-                new DeleteNode() ,
+                new DeleteNode(),
                 new ReverseLinkedList(),
                 new CompareLinkedLists(),
                 new MergeLinkedLists(),
                 new NthFromLastNode(),
                 new DeleteDuplicates(),
-                new DetectCycle()
+                new DetectCycle(),
+                new MergePointLinkedLists()
+            });
+        }
+
+        private static void RunTreeQuestions()
+        {
+            Utility.RunQuestions(string.Format(ModuleHeader, "Trees"), new List<IQuestion>()
+            {
+                new PreorderTraversal(),
+                new PostorderTraversal(),
+                new InorderTraversal(),
+                new TreeHeight(),
+                new TopView(),
+                new LevelorderTraversal()
             });
         }
     }

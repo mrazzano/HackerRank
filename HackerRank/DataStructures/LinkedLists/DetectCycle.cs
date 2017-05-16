@@ -17,7 +17,7 @@ namespace HackerRank.DataStructures.LinkedLists
             Console.WriteLine(solution(head));
         }
 
-        private static bool solution(Node head)
+        private static bool solution(ListNode head)
         {
             var slow = head;
             var fast = head;

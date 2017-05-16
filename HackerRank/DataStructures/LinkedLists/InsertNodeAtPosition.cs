@@ -16,9 +16,9 @@ namespace HackerRank.DataStructures.LinkedLists
             Utility.PrintLinkedList(result);
         }
 
-        private static Node solution(Node head, int data, int position)
+        private static ListNode solution(ListNode head, int data, int position)
         {
-            var newNode = new Node(data, null);
+            var newNode = new ListNode(data, null);
             if (position == 0)
             {
                 newNode.next = head;

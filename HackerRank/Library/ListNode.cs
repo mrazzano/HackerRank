@@ -1,12 +1,12 @@
 ﻿
 namespace HackerRank.Library
 {
-    public class Node
+    public class ListNode
     {
         public  int data;
-        public Node next;
+        public ListNode next;
 
-        public Node(int data, Node next)
+        public ListNode(int data, ListNode next)
         {
             this.data = data;
             this.next = next;

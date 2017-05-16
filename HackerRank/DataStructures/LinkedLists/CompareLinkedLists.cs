@@ -17,7 +17,7 @@ namespace HackerRank.DataStructures.LinkedLists
             Console.WriteLine(solution(head1, head2));
         }
 
-        private static bool solution(Node head1, Node head2)
+        private static bool solution(ListNode head1, ListNode head2)
         {
             while (head1 != null && head2 != null)
             {

@@ -42,7 +42,7 @@ namespace HackerRank.Library
             Console.WriteLine(FormatString, order, question);
         }
 
-        public static void PrintLinkedList(Node head)
+        public static void PrintLinkedList(ListNode head)
         {
             var sb = new StringBuilder();
             var node = head;
@@ -57,15 +57,29 @@ namespace HackerRank.Library
 
         #region Initialization Methods
 
-        public static Node GetLinkedList(int[] nodes)
+        public static ListNode GetLinkedList(int[] nodes)
         {
-            Node lastNode = null;
+            ListNode lastListNode = null;
             for (var i = nodes.Length - 1; i >= 0; i--)
             {
-                var node = new Node(nodes[i], lastNode);
-                lastNode = node;
+                var node = new ListNode(nodes[i], lastListNode);
+                lastListNode = node;
             }
-            return lastNode;
+            return lastListNode;
+        }
+
+        public static TreeNode GetBinaryTree(int[] treeNodes, int index)
+        {
+            if (index > treeNodes.Length)
+                return null;
+
+            var value = treeNodes[index - 1];
+            var node = new TreeNode(value)
+            {
+                left = GetBinaryTree(treeNodes, index * 2),
+                right = GetBinaryTree(treeNodes, index * 2 + 1)
+            };
+            return node;
         }
         #endregion
 

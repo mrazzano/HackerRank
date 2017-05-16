@@ -16,7 +16,7 @@ namespace HackerRank.DataStructures.LinkedLists
             Utility.PrintLinkedList(solution(head1, head2));
         }
 
-        private static Node solution(Node head1, Node head2)
+        private static ListNode solution(ListNode head1, ListNode head2)
         {
             if (head1 == null && head2 == null)
                 return null;

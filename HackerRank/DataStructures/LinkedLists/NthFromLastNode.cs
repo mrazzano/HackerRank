@@ -18,7 +18,7 @@ namespace HackerRank.DataStructures.LinkedLists
             Console.WriteLine(result.data);
         }
 
-        private static Node solution(Node head, int position)
+        private static ListNode solution(ListNode head, int position)
         {
             if (head == null)
                 return null;

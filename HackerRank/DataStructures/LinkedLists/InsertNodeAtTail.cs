@@ -16,14 +16,14 @@ namespace HackerRank.DataStructures.LinkedLists
             Utility.PrintLinkedList(result);
         }
 
-        private static Node solution(Node head, int data)
+        private static ListNode solution(ListNode head, int data)
         {
             var node = head;
             while (node.next != null)
             {
                 node = node.next;
             }
-            node.next = new Node(data, null);
+            node.next = new ListNode(data, null);
             return head;
         }
     }
