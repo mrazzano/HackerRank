@@ -2,6 +2,7 @@
 using HackerRank.Library;
 using HackerRank.DataStructures.Arrays;
 using HackerRank.DataStructures.LinkedLists;
+using HackerRank.DataStructures.Stacks;
 using HackerRank.DataStructures.Trees;
 
 namespace HackerRank.DataStructures
@@ -59,7 +60,9 @@ namespace HackerRank.DataStructures
                 new TreeHeight(),
                 new TopView(),
                 new LevelorderTraversal(),
-                new InsertTreeNode()
+                new InsertTreeNode(),
+                new LowestCommonAncestor(),
+                new StackMaximumElement()
             });
         }
     }

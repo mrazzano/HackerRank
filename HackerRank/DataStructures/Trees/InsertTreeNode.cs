@@ -1,4 +1,5 @@
-﻿using HackerRank.Library;
+﻿using System;
+using HackerRank.Library;
 
 namespace HackerRank.DataStructures.Trees
 {
@@ -14,6 +15,7 @@ namespace HackerRank.DataStructures.Trees
             var root = Utility.GetBinaryTree(new[] { 4, 2, 7, 1, 3 }, 1);
 
             Utility.PrintTreePreOrder(solution(root, value));
+            Console.WriteLine();
         }
 
         private static TreeNode solution(TreeNode root, int value)

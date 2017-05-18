@@ -201,6 +201,7 @@
     <Compile Include="DataStructures\LinkedLists\DeleteNode.cs" />
     <Compile Include="DataStructures\LinkedLists\PrintElements.cs" />
     <Compile Include="DataStructures\Stacks\StackMaximumElement.cs" />
+    <Compile Include="DataStructures\Trees\LowestCommonAncestor.cs" />
     <Compile Include="DataStructures\Trees\InsertTreeNode.cs" />
     <Compile Include="DataStructures\Trees\LevelorderTraversal.cs" />
     <Compile Include="DataStructures\Trees\TreeHeight.cs" />
