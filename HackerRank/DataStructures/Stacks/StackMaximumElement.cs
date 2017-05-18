@@ -1,11 +1,11 @@
 ﻿using System;
 using HackerRank.Library;
 
-namespace HackerRank.DataStructures.Trees
+namespace HackerRank.DataStructures.Stacks
 {
-    public class TreeHeight : IQuestion
+    public class StackMaximumElement : IQuestion
     {
-        private const string question = "Height of a Binary Tree";
+        private const string question = "Maximum Element";
 
         public void Run(int order)
         {

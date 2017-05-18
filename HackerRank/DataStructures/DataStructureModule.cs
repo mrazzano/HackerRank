@@ -58,7 +58,8 @@ namespace HackerRank.DataStructures
                 new InorderTraversal(),
                 new TreeHeight(),
                 new TopView(),
-                new LevelorderTraversal()
+                new LevelorderTraversal(),
+                new InsertTreeNode()
             });
         }
     }

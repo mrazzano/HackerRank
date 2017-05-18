@@ -6,8 +6,8 @@ namespace HackerRank.Library
 {
     public static class Utility
     {
-        private const int LineLength = 60;    
-        
+        private const int LineLength = 60;
+
         #region Output Methods
 
         public static void PrintProgramHeader(string header)
@@ -52,6 +52,16 @@ namespace HackerRank.Library
                 node = node.next;
             }
             Console.WriteLine(sb.ToString().Remove(sb.Length - 2, 2));
+        }
+
+        public static void PrintTreePreOrder(TreeNode root)
+        {
+            if (root == null)
+                return;
+
+            Console.Write(root.data + " ");
+            PrintTreePreOrder(root.left);
+            PrintTreePreOrder(root.right);
         }
         #endregion
 

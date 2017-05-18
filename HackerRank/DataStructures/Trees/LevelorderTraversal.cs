@@ -43,8 +43,8 @@ namespace HackerRank.DataStructures.Trees
                 printLevel(root.left, level - 1);
                 printLevel(root.right, level - 1);
             }
-
         }
+
         private static int getHeight(TreeNode root)
         {
             if (root == null)
