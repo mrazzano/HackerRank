@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using HackerRank.Library;
 using HackerRank.Algorithms;
+using HackerRank.CrackingTheCodeInterview;
 using HackerRank.DataStructures;
 
 namespace HackerRank
@@ -21,6 +22,7 @@ namespace HackerRank
 
             new AlgorithmModule().Execute();
             new DataStructureModule().Execute();
+            new CrackingTheCodeInterviewModule().Execute();
 
             // stop timer
             timer.Stop();

@@ -17,6 +17,7 @@ namespace HackerRank.DataStructures
             RunArrayQuestions();
             RunLinkedListQuestions();
             RunTreeQuestions();
+            RunStackQuestions();
         }
          
         private static void  RunArrayQuestions()
@@ -61,8 +62,16 @@ namespace HackerRank.DataStructures
                 new TopView(),
                 new LevelorderTraversal(),
                 new InsertTreeNode(),
-                new LowestCommonAncestor(),
-                new StackMaximumElement()
+                new LowestCommonAncestor()
+            });
+        }
+
+        private static void RunStackQuestions()
+        {
+            Utility.RunQuestions(string.Format(ModuleHeader, "Stacks"), new List<IQuestion>()
+            {
+                new StackMaximumElement(),
+                new BalancedBrackets()
             });
         }
     }

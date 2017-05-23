@@ -1,11 +1,12 @@
 ﻿using System;
 using HackerRank.Library;
 
-namespace HackerRank.DataStructures.LinkedLists
+namespace HackerRank.CrackingTheCodeInterview
 {
-    public class DetectCycle : IQuestion
+
+    public class LinkedListDetectCycle : IQuestion
     {
-        private const string question = "Cycle Detection";
+        private const string question = "Linked Lists: Detect Cycle";
 
         public void Run(int order)
         {
@@ -22,14 +23,13 @@ namespace HackerRank.DataStructures.LinkedLists
             var slow = head;
             var fast = head;
 
-            while (fast != null && fast.next != null)
+            while (fast != null && fast.next!=null)
             {
+                if (slow == fast)
+                    return true;
+
                 slow = slow.next;
                 fast = fast.next.next;
-                if (slow == fast)
-                {
-                    return true;
-                }
             }
             return false;
         }
