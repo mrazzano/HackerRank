@@ -41,6 +41,7 @@ namespace HackerRank.Algorithms
                 new PlusMinus(),
                 new Staircase(),
                 new MinMaxSum(),
+                new BirthdayCakeCandles(),
                 new TimeConversion()
             });
         }
@@ -53,10 +54,16 @@ namespace HackerRank.Algorithms
                 new AppleAndOrange(),
                 new Kangaroo(),
                 new BetweenTwoSets(),
+                new BirthdayChocolate(),
                 new DivisibleSumPairs(),
+                new MigratoryBirds(),
                 new BonAppetit(),
                 new SockMerchant(),
                 new DrawingBook(),
+                new CountingValleys(),
+                new ElectronicsShop(),
+                new CatsAndMouse(),
+                new PickingNumbers(),
                 new HurdleRace(),
                 new DesignerPDFViewer(),
                 new UtopianTree(),
@@ -87,7 +94,9 @@ namespace HackerRank.Algorithms
                 new FairRations(),
                 new CavityMap(),
                 new ManasaAndStones(),
-                new StrangeCounter()
+                new StrangeCounter(),
+               
+               
             });
         }
 
