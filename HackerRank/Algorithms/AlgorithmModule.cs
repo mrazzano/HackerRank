@@ -64,6 +64,7 @@ namespace HackerRank.Algorithms
                 new ElectronicsShop(),
                 new CatsAndMouse(),
                 new PickingNumbers(),
+                new ClimbingTheLeaderboard(),
                 new HurdleRace(),
                 new DesignerPDFViewer(),
                 new UtopianTree(),
@@ -95,8 +96,6 @@ namespace HackerRank.Algorithms
                 new CavityMap(),
                 new ManasaAndStones(),
                 new StrangeCounter(),
-               
-               
             });
         }
 
@@ -141,7 +140,8 @@ namespace HackerRank.Algorithms
                 new CountingSort2(),
                 new CountingSort3(),
                 new ClosestNumbers(),
-                new FindTheMedian()
+                new FindTheMedian(),
+                new BigSorting()
             });
         }
 

@@ -61,6 +61,7 @@
     </Compile>
     <Compile Include="Algorithms\Greedy\MarcsCakewalk.cs" />
     <Compile Include="Algorithms\Greedy\MinimumAbsoluteDifference.cs" />
+    <Compile Include="Algorithms\Implementation\ClimbingTheLeaderboard.cs" />
     <Compile Include="Algorithms\Implementation\PickingNumbers.cs" />
     <Compile Include="Algorithms\Implementation\ElectronicsShop.cs" />
     <Compile Include="Algorithms\Implementation\CountingValleys.cs" />
@@ -156,6 +157,7 @@
     <Compile Include="Algorithms\Search\MissingNumbers.cs" />
     <Compile Include="Algorithms\Search\IceCreamParlor.cs" />
     <Compile Include="Algorithms\Search\HackerlandRadioTransmitters.cs" />
+    <Compile Include="Algorithms\Sorting\BigSorting.cs" />
     <Compile Include="Algorithms\Sorting\FindTheMedian.cs" />
     <Compile Include="Algorithms\Sorting\ClosestNumbers.cs" />
     <Compile Include="Algorithms\Sorting\CountingSort3.cs" />
@@ -189,8 +191,12 @@
     <Compile Include="Algorithms\Strings\SuperReducedString.cs" />
     <Compile Include="Algorithms\WarmUp\BirthdayCakeCandles.cs" />
     <Compile Include="Algorithms\WarmUp\MinMaxSum.cs" />
+    <Compile Include="CrackingTheCodeInterview\FibonacciNumbers.cs" />
+    <Compile Include="CrackingTheCodeInterview\Primality.cs" />
     <Compile Include="CrackingTheCodeInterview\CrackingTheCodeInterviewModule.cs" />
+    <Compile Include="CrackingTheCodeInterview\BinarySearchTree.cs" />
     <Compile Include="CrackingTheCodeInterview\SortingBubbleSort.cs" />
+    <Compile Include="CrackingTheCodeInterview\TaleOfTwoStacks.cs" />
     <Compile Include="CrackingTheCodeInterview\StacksBalancedBrackets.cs" />
     <Compile Include="CrackingTheCodeInterview\LinkedListDetectCycle.cs" />
     <Compile Include="CrackingTheCodeInterview\RansomNote.cs" />

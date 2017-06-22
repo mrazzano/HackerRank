@@ -11,6 +11,8 @@ namespace HackerRank.CrackingTheCodeInterview
         {
             // execute all modules
             RunDataStructureQuestions();
+            RunAlgorithmQuestions();
+            RunConceptQuestions();
         }
 
         private static void RunDataStructureQuestions()
@@ -22,7 +24,26 @@ namespace HackerRank.CrackingTheCodeInterview
                 new RansomNote(),
                 new LinkedListDetectCycle(),
                 new StacksBalancedBrackets(),
-                new SortingBubbleSort()
+                new TaleOfTwoStacks(),
+                new BinarySearchTree(),
+                
+            });
+        }
+
+        private static void RunAlgorithmQuestions()
+        {
+            Utility.RunQuestions(string.Format(ModuleHeader, "Algorithms"), new List<IQuestion>()
+            {
+                new SortingBubbleSort(),
+            });
+        }
+
+        private static void RunConceptQuestions()
+        {
+            Utility.RunQuestions(string.Format(ModuleHeader, "Techniques/Concepts"), new List<IQuestion>()
+            {
+                new Primality(),
+                new FibonacciNumbers()
             });
         }
     }
