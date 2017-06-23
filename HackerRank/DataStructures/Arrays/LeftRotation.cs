@@ -25,7 +25,7 @@ namespace HackerRank.DataStructures.Arrays
             var result = new int[n];
             for (var i = 0; i < n; i++)
             {
-                result[(i + n - d)%n] = arr[i];
+                result[(i + n - d) % n] = arr[i];
             }
 
             Console.WriteLine(String.Join(" ", result));

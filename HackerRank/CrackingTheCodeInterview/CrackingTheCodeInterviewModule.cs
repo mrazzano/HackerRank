@@ -26,7 +26,6 @@ namespace HackerRank.CrackingTheCodeInterview
                 new StacksBalancedBrackets(),
                 new TaleOfTwoStacks(),
                 new BinarySearchTree(),
-                
             });
         }
 
@@ -43,7 +42,10 @@ namespace HackerRank.CrackingTheCodeInterview
             Utility.RunQuestions(string.Format(ModuleHeader, "Techniques/Concepts"), new List<IQuestion>()
             {
                 new Primality(),
-                new FibonacciNumbers()
+                new FibonacciNumbers(),
+                new DavisStaircase(),
+                new CoinChange(),
+                new LonelyInteger(),
             });
         }
     }

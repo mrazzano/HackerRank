@@ -44,7 +44,7 @@ namespace HackerRank.DataStructures.Arrays
                 {
                     var index = ((x ^ last) % n);
                     last = result[index][(y % result[index].Length)];
-                    
+
                     Console.WriteLine(last);
                 }
             }

@@ -191,6 +191,9 @@
     <Compile Include="Algorithms\Strings\SuperReducedString.cs" />
     <Compile Include="Algorithms\WarmUp\BirthdayCakeCandles.cs" />
     <Compile Include="Algorithms\WarmUp\MinMaxSum.cs" />
+    <Compile Include="CrackingTheCodeInterview\CoinChange.cs" />
+    <Compile Include="CrackingTheCodeInterview\DavisStaircase.cs" />
+    <Compile Include="CrackingTheCodeInterview\LonelyInteger.cs" />
     <Compile Include="CrackingTheCodeInterview\FibonacciNumbers.cs" />
     <Compile Include="CrackingTheCodeInterview\Primality.cs" />
     <Compile Include="CrackingTheCodeInterview\CrackingTheCodeInterviewModule.cs" />

@@ -30,7 +30,6 @@ namespace HackerRank.CrackingTheCodeInterview
             if (root.data <= min || root.data >= max)
                 return false;
             
-
             return isValidBST(root.left, min, root.data) && isValidBST(root.right, root.data, max);
         }
     }

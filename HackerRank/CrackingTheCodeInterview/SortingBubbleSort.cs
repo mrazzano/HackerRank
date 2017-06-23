@@ -41,9 +41,7 @@ namespace HackerRank.CrackingTheCodeInterview
                 }
 
                 if (numberOfSwaps == 0)
-                {
                     break;
-                }
             }
             return numberOfSwaps;
         }

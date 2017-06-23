@@ -18,7 +18,7 @@ namespace HackerRank.CrackingTheCodeInterview
         private static void solution(string[] args)
         {
             var p = Convert.ToInt32(args[0]);
-            for (var i=0; i < p; i++)
+            for (var i = 0; i < p; i++)
             {
                 var n = Convert.ToInt32(args[i + 1]);
                 Console.WriteLine(isPrime(n) ? "Prime" : "Not prime");
@@ -27,13 +27,13 @@ namespace HackerRank.CrackingTheCodeInterview
 
         private static bool isPrime(int n)
         {
-            if (n < 2) 
+            if (n < 2)
                 return false;
 
             var sqrt = Math.Sqrt(n);
             for (var i = 2; i <= sqrt; i++)
             {
-                if (n%i == 0)
+                if (n % i == 0)
                     return false;
             }
             return true;

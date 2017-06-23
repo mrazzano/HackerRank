@@ -4,7 +4,6 @@ using HackerRank.Library;
 
 namespace HackerRank.CrackingTheCodeInterview
 {
-
     public class TaleOfTwoStacks : IQuestion
     {
         private const string question = "Queues: A Tale of Two Stacks";
@@ -61,7 +60,6 @@ namespace HackerRank.CrackingTheCodeInterview
             {
                 transfer();
                 return stackOldestOnTop.Pop();
-                
             }
 
             private void transfer()

@@ -23,7 +23,7 @@ namespace HackerRank.CrackingTheCodeInterview
             var slow = head;
             var fast = head;
 
-            while (fast != null && fast.next!=null)
+            while (fast != null && fast.next != null)
             {
                 if (slow == fast)
                     return true;
