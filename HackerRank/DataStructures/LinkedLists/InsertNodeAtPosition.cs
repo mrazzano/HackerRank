@@ -22,19 +22,18 @@ namespace HackerRank.DataStructures.LinkedLists
             if (position == 0)
             {
                 newNode.next = head;
-                head = newNode;
+                return newNode;
             }
-            else
+
+            var node = head;
+            while (position > 1)
             {
-                var node = head;
-                while (position > 1)
-                {
-                    node = node.next;
-                    position--;
-                }
-                newNode.next = node.next;
-                node.next = newNode;
+                node = node.next;
+                position--;
             }
+            newNode.next = node.next;
+            node.next = newNode;
+
             return head;
         }
     }

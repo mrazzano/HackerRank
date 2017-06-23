@@ -21,7 +21,7 @@ namespace HackerRank.DataStructures.LinkedLists
                 return null;
 
             var result = head;
-            while (head.next!=null)
+            while (head.next != null)
             {
                 if (head.data != head.next.data)
                 {

@@ -34,6 +34,8 @@ namespace HackerRank.CrackingTheCodeInterview
             Utility.RunQuestions(string.Format(ModuleHeader, "Algorithms"), new List<IQuestion>()
             {
                 new SortingBubbleSort(),
+                new Comparator(),
+                //new CountingInversions()
             });
         }
 

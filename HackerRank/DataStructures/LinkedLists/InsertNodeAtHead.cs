@@ -10,7 +10,7 @@ namespace HackerRank.DataStructures.LinkedLists
         {
             Utility.PrintQuestionHeader(order, question);
 
-            var head = Utility.GetLinkedList(new[]{2, 3});
+            var head = Utility.GetLinkedList(new[] { 2, 3 });
             var result = solution(head, 1);
 
             Utility.PrintLinkedList(result);

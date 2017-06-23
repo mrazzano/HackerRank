@@ -12,7 +12,7 @@ namespace HackerRank.DataStructures.LinkedLists
 
             const int position = 1;
             var head = Utility.GetLinkedList(new[] { 1, 2, 3 });
-            
+
             var result = solution(head, position);
             Utility.PrintLinkedList(result);
         }
@@ -21,14 +21,14 @@ namespace HackerRank.DataStructures.LinkedLists
         {
             if (head == null)
                 return null;
-           
+
             if (position == 0)
             {
                 return head.next;
             }
 
             var node = head;
-            for (var i = 0; i < position-1; i++)
+            for (var i = 0; i < position - 1; i++)
             {
                 node = node.next;
             }

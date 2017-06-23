@@ -20,9 +20,8 @@ namespace HackerRank.DataStructures.LinkedLists
         {
             var node = head;
             while (node.next != null)
-            {
                 node = node.next;
-            }
+            
             node.next = new ListNode(data, null);
             return head;
         }

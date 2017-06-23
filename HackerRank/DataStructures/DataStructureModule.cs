@@ -19,8 +19,8 @@ namespace HackerRank.DataStructures
             RunTreeQuestions();
             RunStackQuestions();
         }
-         
-        private static void  RunArrayQuestions()
+
+        private static void RunArrayQuestions()
         {
             Utility.RunQuestions(string.Format(ModuleHeader, "Arrays"), new List<IQuestion>()
             {

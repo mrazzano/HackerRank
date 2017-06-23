@@ -38,7 +38,7 @@ namespace HackerRank.DataStructures.Trees
             {
                 Console.Write("{0} ", root.data);
             }
-            else if(level >0)
+            else if (level > 0)
             {
                 printLevel(root.left, level - 1);
                 printLevel(root.right, level - 1);

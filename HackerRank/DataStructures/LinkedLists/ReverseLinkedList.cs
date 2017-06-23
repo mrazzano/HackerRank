@@ -11,7 +11,7 @@ namespace HackerRank.DataStructures.LinkedLists
             Utility.PrintQuestionHeader(order, question);
 
             var head = Utility.GetLinkedList(new[] { 1, 2, 3 });
-            
+
             var result = solution(head);
             Utility.PrintLinkedList(result);
         }

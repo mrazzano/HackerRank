@@ -36,28 +36,28 @@ namespace HackerRank.DataStructures.Stacks
                     case '{':
                     case '[':
                     case '(':
-                    {
-                        stack.Push(item);
-                        break;
-                    }
+                        {
+                            stack.Push(item);
+                            break;
+                        }
                     case '}':
-                    {
-                        if (stack.Count == 0 || stack.Pop() != '{')
-                            return false;
-                        break;
-                    }
+                        {
+                            if (stack.Count == 0 || stack.Pop() != '{')
+                                return false;
+                            break;
+                        }
                     case ']':
-                    {
-                        if (stack.Count == 0 || stack.Pop() != '[')
-                            return false;
-                        break;
-                    }
+                        {
+                            if (stack.Count == 0 || stack.Pop() != '[')
+                                return false;
+                            break;
+                        }
                     case ')':
-                    {
-                        if (stack.Count == 0 || stack.Pop() != '(')
-                            return false;
-                        break;
-                    }
+                        {
+                            if (stack.Count == 0 || stack.Pop() != '(')
+                                return false;
+                            break;
+                        }
                 }
             }
             return stack.Count == 0;
