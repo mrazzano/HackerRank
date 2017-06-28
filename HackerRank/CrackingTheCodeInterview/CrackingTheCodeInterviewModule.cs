@@ -35,7 +35,7 @@ namespace HackerRank.CrackingTheCodeInterview
             {
                 new SortingBubbleSort(),
                 new Comparator(),
-                //new CountingInversions()
+                new CountingInversions()
             });
         }
 

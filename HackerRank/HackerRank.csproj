@@ -193,6 +193,7 @@
     <Compile Include="Algorithms\WarmUp\MinMaxSum.cs" />
     <Compile Include="CrackingTheCodeInterview\Comparator.cs" />
     <Compile Include="CrackingTheCodeInterview\CoinChange.cs" />
+    <Compile Include="CrackingTheCodeInterview\CountingInversions.cs" />
     <Compile Include="CrackingTheCodeInterview\DavisStaircase.cs" />
     <Compile Include="CrackingTheCodeInterview\LonelyInteger.cs" />
     <Compile Include="CrackingTheCodeInterview\FibonacciNumbers.cs" />
